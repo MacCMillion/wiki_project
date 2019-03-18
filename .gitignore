@@ -132,3 +132,4 @@ core
 tmp
 log
 data
+throttle.ctrl

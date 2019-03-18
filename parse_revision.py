@@ -5,6 +5,7 @@ import os
 from datetime import datetime
 import logging
 import pickle
+import gzip
 
 # import xml utilies
 from xml.sax.handler import ContentHandler
@@ -26,9 +27,11 @@ class MyRevisionsHandler(ContentHandler):
         """
         :param out_file:
         """
+        self._out_file = out_file
+
         self.flag_newpage = False
         self.flag_revision = False
-        self.flag_contributer = False
+        self.flag_contributor = False
 
         self.revision = None
 
@@ -53,6 +56,7 @@ class MyRevisionsHandler(ContentHandler):
 
         # debug
         self._name = ''
+        self._rev_count = 0
 
     def _get_character_data(self):
         data = ''.join(self._charBuffer).strip()
@@ -70,7 +74,7 @@ class MyRevisionsHandler(ContentHandler):
 
     def log_status(self):
         m = f'Element: {self._name} article_id: {self.article_id},NP: {self.flag_newpage} REV: {self.flag_newpage}, ' \
-            f'CONT: {self.flag_contributer} \n{self._text}'
+            f'CONT: {self.flag_contributor} \n{self._text}'
         return m
 
     def startElement(self, name, attrs):
@@ -79,7 +83,7 @@ class MyRevisionsHandler(ContentHandler):
             self.flag_newpage = True
 
         if name == 'contributor':
-            self.flag_contributer = True
+            self.flag_contributor = True
             self.flag_revision = False
 
         if name == 'text':
@@ -98,7 +102,7 @@ class MyRevisionsHandler(ContentHandler):
                 self._text = self._get_character_data()
                 # print('page_id: ', self._text)
                 self.article_id = int(self._text)
-            elif self.flag_contributer:
+            elif self.flag_contributor:
                 self._text = self._get_character_data()
                 self.author_id = int(self._text)
                 # print('author_id: ', self._text)
@@ -110,17 +114,18 @@ class MyRevisionsHandler(ContentHandler):
                 logging.debug('ERROR: ID couldn\'t be assigned to any element')
                 print('What have you done?? You should never end up here!')
                 print(self._text)
-            logging.debug(f'{self._text}   newpage: {self.flag_newpage}      revision: {self.flag_revision}    contributer {self.flag_contributer}')
+            logging.debug(f'{self._text}   newpage: {self.flag_newpage}      revision: {self.flag_revision}    contributer {self.flag_contributor}')
 
         if name == 'revision':
             revision = RevisionXML(page_title=self.article_name, page_id=self.article_id,
                                    revision_id=self.revision_id, author_id=self.author_id,
-                                   author_name=self.author_name)
+                                   author_name=self.author_name, ts=self.ts, revision_hash=self.revision_hash)
             self._result.append(revision)
             self.flag_revision = False
+            self._rev_count += 1
 
         if name == 'contributor':
-            self.flag_contributer = False
+            self.flag_contributor = False
 
         if name == 'title':
             self.article_name = self._get_character_data()
@@ -144,6 +149,11 @@ class MyRevisionsHandler(ContentHandler):
             self.revision_hash = self._get_character_data()
         self._charBuffer = []
 
+        if self._rev_count >= 10:
+            with open('./res/revision_dict.pkl', 'wb') as f:
+                pickle.dump(self._result, f)
+            sys.exit()
+
     def endDocument(self):
         with open('./res/revision_dict.pkl', 'wb') as f:
             pickle.dump(self._result, f)
@@ -151,11 +161,12 @@ class MyRevisionsHandler(ContentHandler):
 
 
 if __name__ == '__main__':
-    with open('./log/log_revisions.log', 'w') as f:
-        f.write('')
+    with open('./log/log_revisions.log', 'w') as log_file:
+        log_file.write('')
     logging.basicConfig(filename='./log/log_revisions.log', level=logging.DEBUG)
     _, out_file, in_file = sys.argv
-    MyRevisionsHandler(out_file).parse(in_file)
+    with gzip.open(in_file) as input_file:
+        MyRevisionsHandler(out_file).parse(input_file)
 
 
 

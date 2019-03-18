@@ -15,6 +15,8 @@ import xml.sax
 import pandas as pd
 import numpy as np
 
+
+
 class MyReducer(ContentHandler):
     def __init__(self, out_file):
         self._rev_no = 0

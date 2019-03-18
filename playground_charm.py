@@ -6,48 +6,46 @@ import csv
 
 
 import urllib.request
-import pywikibot
+#import pywikibot
 from revision import RevisionPywii as Revision
 import numpy as np
 import pandas as pd
 
+'''
+def get_archives(filename, pattern):
+    """ Retrives the links to the monthly FA-Archives"""
 
-# Load results of parsing monthly archives
-df_FAC = pd.read_csv('./data/FAC_nomination.csv', sep=';', index_col=0, parse_dates=['nomination', 'last_comment'])
-print(len(df_FAC))
-df_FAC = df_FAC[(np.datetime64('2005')<=df_FAC.nomination) & (df_FAC.nomination<=np.datetime64('2016'))]
-print(len(df_FAC))
+    # Extract links from Html document
+    with open(filename) as file:
+        links_to_archive = []
+        for line in file:
+            matcher = re.search(pattern, line)
+            if matcher:
+                links_to_archive.append(matcher.group(1))
+
+    # Remove links to archives from before 2005 and after 2016
+    year_list = ['2003', '2004', '2017', '2018']
+    links_to_archive = [link for year in year_list for link in links_to_archive if not year in link]
+    return links_to_archive
 
 
-# Load results of parsing revision history
-with open('./res/article_dict.pkl', 'rb') as file:
-    ends_dict = pickle.load(file)
+# sucessful nominations
+pattern_featured = "(Wikipedia:Featured_article_candidates/Featured_log/.*?)\""
+with open('./data/FA_archives.txt', 'w') as f:
+    for archive in get_archives('data/FAArchive.html', pattern_featured):
+        f.write(archive + '\n')
+'''
 
-df_ends_min = [[i, article, max(dates), min(dates)] for i, (article, dates) in enumerate(ends_dict.items())]
-df_ends_min = pd.DataFrame(df_ends_min, columns=['idx', 'title', 'first', 'last'])
+class SimpleClass:
 
-# clean article names
-df_FAC['title'] = df_FAC.title.str.replace('/archive\d', '')
-df_ends_min['title'] = df_ends_min.title.str.replace('/archive\d', '')
+    def __init__(self, in_file, out_file):
+        self._in_file = in_file
+        self.out_file = out_file
 
-# This will produce duplicates, so we have to chose the max and min of these
-agg_funcs = {'first': 'min',
-             'last' : 'max'}
-df_ends_min = df_ends_min.groupby('title').agg(agg_funcs)
-df_ends_min.reset_index(inplace=True)
+    def do_smth(self):
+        print(self._in_file)
 
-n_FAC = len(df_FAC)
-n_ends = len(df_ends_min)
-
-# We only keep the first nomination (simplification)
-df_FAC['has_duplicate'] = df_FAC.duplicated(subset='title', keep=False)
-print('duplicates:')
-print(f'multiple nominations: {sum(df_FAC.has_duplicate)}')
-df_FAC = df_FAC.loc[~df_FAC.sort_values('nomination').duplicated(subset='title', keep='first'),]
-
-# Remove articles from FAC that are not in ends
-df_merge = pd.merge(df_FAC, df_ends_min, on='title')
-n_FAC_nd = len(df_FAC)
-print(f'number of nominations: {n_FAC:>20} \nartilcles in ends: {n_ends:>20}'
-      f'\nunique articles in nominations: {n_FAC_nd:20} '
-      f'\narticles in merged data Frame: {len(df_merge):20}')
+if __name__ == '__main__':
+    _, in_file, out_file = sys.argv
+    sc = SimpleClass(in_file, out_file)
+    sc.do_smth()

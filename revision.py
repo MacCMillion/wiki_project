@@ -8,7 +8,6 @@ class RevisionXML():
     page_id : int
     revision_id : int
     author_name : str
-    length : int
     ts : datetime
     revision_hash : str
     author_id : int = -1
@@ -23,7 +22,6 @@ class RevisionPywii():
     page_id: int
     revision_id: int
     author_name: str
-    length: int
     d_length: int
     ts: datetime
     revision_hash: str

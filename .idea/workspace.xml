@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea11d891-c10c-421e-a2f4-1a5843f40d4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wiki_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wiki_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Docs.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apicache-py3/1849086b482dfe8c3011acb2d0939b123462957331128ba301252b1d51d2010c" beforeDir="false" afterPath="$PROJECT_DIR$/apicache-py3/1849086b482dfe8c3011acb2d0939b123462957331128ba301252b1d51d2010c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apicache-py3/7605d89589c4400a30a0632a2cdcc804d8f0a724bb65f86ad6e338c41150124e" beforeDir="false" afterPath="$PROJECT_DIR$/apicache-py3/7605d89589c4400a30a0632a2cdcc804d8f0a724bb65f86ad6e338c41150124e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apicache-py3/ba95a44775474d871389c9690e6f7550cdf6c03321d2924e28bdad43790b1d27" beforeDir="false" afterPath="$PROJECT_DIR$/apicache-py3/ba95a44775474d871389c9690e6f7550cdf6c03321d2924e28bdad43790b1d27" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apicache-py3/e899af20da62c7b8d36da67aa7ed0ce03e031153eaedef01a512a7aace3f8a33" beforeDir="false" afterPath="$PROJECT_DIR$/apicache-py3/e899af20da62c7b8d36da67aa7ed0ce03e031153eaedef01a512a7aace3f8a33" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apicache-py3/ed64e809dc99004e9fdbb15f13c4831c6bbe7f4cef576ec9423810f7d63ce012" beforeDir="false" afterPath="$PROJECT_DIR$/apicache-py3/ed64e809dc99004e9fdbb15f13c4831c6bbe7f4cef576ec9423810f7d63ce012" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merge.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/merge.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse_ends.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse_ends.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse_revision.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse_revision.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/playground.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground_charm.py" beforeDir="false" afterPath="$PROJECT_DIR$/playground_charm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reduce.py" beforeDir="false" afterPath="$PROJECT_DIR$/reduce.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision.py" beforeDir="false" afterPath="$PROJECT_DIR$/revision.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_skript.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/run_skript.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/throttle.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/throttle.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/wiki_api.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,79 +35,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parse_ends.py">
+        <entry file="file://$PROJECT_DIR$/playground_charm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="756">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
-                <element signature="e#32#57#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="944">
-              <caret line="133" column="4" selection-start-line="133" selection-start-column="4" selection-end-line="133" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tmp/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="11" selection-end-line="3" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/.gitignore">
+        <entry file="file://$PROJECT_DIR$/parse_revision.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/revision.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parse_revision_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1950">
-              <caret line="144" column="57" selection-start-line="144" selection-start-column="57" selection-end-line="144" selection-end-column="57" />
+            <state relative-caret-position="375">
+              <caret line="148" column="59" selection-start-line="148" selection-start-column="59" selection-end-line="148" selection-end-column="59" />
               <folding>
                 <element signature="e#32#41#0" expanded="true" />
               </folding>
@@ -97,13 +59,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reduce.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-config.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/revision.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -164,29 +128,31 @@
         <option value="$PROJECT_DIR$/log/log_revisions.log" />
         <option value="$PROJECT_DIR$/my_unittest.py" />
         <option value="$PROJECT_DIR$/data/augsburg_rev_end.xml" />
-        <option value="$PROJECT_DIR$/parse_revision.py" />
         <option value="$PROJECT_DIR$/revisionxml.py" />
-        <option value="$PROJECT_DIR$/revision.py" />
-        <option value="$PROJECT_DIR$/playground_charm.py" />
-        <option value="$PROJECT_DIR$/wiki_api.py" />
-        <option value="$PROJECT_DIR$/parse_ends.py" />
         <option value="$PROJECT_DIR$/parse_revision_2.py" />
         <option value="$PROJECT_DIR$/parse_nominations.py" />
         <option value="$PROJECT_DIR$/doc.txt" />
         <option value="$PROJECT_DIR$/gitignore" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/tmp/.gitignore" />
         <option value="$PROJECT_DIR$/res/.gitignore" />
         <option value="$PROJECT_DIR$/log/.gitignore" />
         <option value="$PROJECT_DIR$/data/.gitignore" />
+        <option value="$PROJECT_DIR$/run_skript.ipynb" />
+        <option value="$PROJECT_DIR$/parse_ends.py" />
+        <option value="$PROJECT_DIR$/user-config.py" />
+        <option value="$PROJECT_DIR$/wiki_api.py" />
+        <option value="$PROJECT_DIR$/playground_charm.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/revision.py" />
+        <option value="$PROJECT_DIR$/parse_revision.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="1853" />
-    <option name="height" value="1055" />
+    <option name="x" value="268" />
+    <option name="y" value="111" />
+    <option name="width" value="1209" />
+    <option name="height" value="767" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -194,6 +160,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,26 +168,30 @@
               <item name="wiki_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="wiki_project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="wiki_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wiki_project" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/parse_revision.py" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/parse_revision.py" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/log" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data/backup" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/log" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -235,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.parse_ends">
+  <component name="RunManager" selected="Python.parse_revision">
     <configuration name="parse_ends" type="PythonConfigurationType" factoryName="Python">
       <module name="wiki_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,7 +220,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parse_ends.py" />
-      <option name="PARAMETERS" value="./res/FACends.txt ./data/FAChistory.xml" />
+      <option name="PARAMETERS" value="./res/FAC_ends.pkl ./data/FAChistory.xml ./tmp/FAC_ends_prob.pkl" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -291,7 +262,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parse_revision.py" />
-      <option name="PARAMETERS" value="./res/revisions.csv ./data/augsburg_rev.xml" />
+      <option name="PARAMETERS" value="./res/revisions.csv ./data/revision_history.xml.gz" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -333,7 +304,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playground_charm.py" />
-      <option name="PARAMETERS" value="Augsburg" />
+      <option name="PARAMETERS" value="path_01 path_02" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -341,7 +312,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in /home/max/Documents/pyscripts/wiki_project/my_unittest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in /home/max/pyscripts/wiki_project_local/wiki_project/my_unittest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="wiki_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -361,13 +332,13 @@
       <item itemvalue="Python.parse_revision" />
       <item itemvalue="Python.parse_revision_2" />
       <item itemvalue="Python.playground_charm" />
-      <item itemvalue="Python tests.Unittests in /home/max/Documents/pyscripts/wiki_project/my_unittest.py" />
+      <item itemvalue="Python tests.Unittests in /home/max/pyscripts/wiki_project_local/wiki_project/my_unittest.py" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.playground_charm" />
         <item itemvalue="Python.parse_revision_2" />
-        <item itemvalue="Python tests.Unittests in /home/max/Documents/pyscripts/wiki_project/my_unittest.py" />
+        <item itemvalue="Python tests.Unittests in /home/max/pyscripts/wiki_project_local/wiki_project/my_unittest.py" />
       </list>
     </recent_temporary>
   </component>
@@ -408,15 +379,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1175" extended-state="6" />
+    <frame x="67" y="25" width="1613" height="1025" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.3065855" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.17610063" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5016077" side_tool="true" weight="0.24958494" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32791588" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32721382" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32700893" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40066963" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39955357" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32937366" />
@@ -460,7 +432,7 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <condition expression="self._name == 'siteinfo'" language="Python" />
           <url>file://$PROJECT_DIR$/parse_revision.py</url>
-          <line>93</line>
+          <line>97</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -473,6 +445,11 @@
           <url>file://$PROJECT_DIR$/parse_nominations.py</url>
           <line>102</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/playground_charm.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -556,188 +533,36 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/parse_revision.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="134" column="57" lean-forward="true" selection-start-line="134" selection-start-column="57" selection-end-line="134" selection-end-column="57" />
-          <folding>
-            <element signature="e#32#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/log_revisions.log" />
-    <entry file="file://$PROJECT_DIR$/data/augsburg_rev.xml" />
-    <entry file="file://$USER_HOME$/anaconda3/envs/wikiproject/lib/python3.7/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3285">
-          <caret line="222" selection-start-line="222" selection-end-line="222" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/wikiproject/lib/python3.7/urllib/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="192" column="76" selection-start-line="189" selection-start-column="77" selection-end-line="192" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/revisions/Augsburg.xml" />
     <entry file="file://$PROJECT_DIR$/data/augsburg.xml" />
-    <entry file="file://$USER_HOME$/anaconda3/envs/wikiproject/lib/python3.7/site-packages/pywikibot/site.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="4037" column="8" selection-start-line="4037" selection-start-column="8" selection-end-line="4037" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/wikiproject/lib/python3.7/site-packages/pywikibot/page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-202">
-          <caret line="5294" column="14" selection-start-line="5294" selection-start-column="6" selection-end-line="5294" selection-end-column="14" />
-          <folding>
-            <element signature="e#481#547#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/throttle.ctrl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/not_found.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/revisions/page_info.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/wikiproject/lib/python3.7/xml/sax/xmlreader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-574">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/backup/FAC.xml">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="176">
-          <caret line="107" column="37" selection-start-line="107" selection-start-column="37" selection-end-line="107" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/FAC_nomination.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/FAC_nomination.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/FACArchive.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4558">
-          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/wikiproject/lib/python3.7/site-packages/pywikibot/site.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/wikiproject/lib/python3.7/site-packages/pywikibot/page.py" />
+    <entry file="file://$PROJECT_DIR$/res/throttle.ctrl" />
+    <entry file="file://$PROJECT_DIR$/res/not_found.csv" />
+    <entry file="file://$PROJECT_DIR$/data/revisions/page_info.csv" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/wikiproject/lib/python3.7/xml/sax/xmlreader.py" />
+    <entry file="file://$PROJECT_DIR$/data/backup/FAC.xml" />
+    <entry file="file://$PROJECT_DIR$/res/FAC_nomination.csv" />
+    <entry file="file://$PROJECT_DIR$/data/FAC_nomination.csv" />
+    <entry file="file://$PROJECT_DIR$/data/FACArchive.htm" />
     <entry file="file://$PROJECT_DIR$/data/FA_c.xml" />
-    <entry file="file://$PROJECT_DIR$/data/FAArchive.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="93" column="174" selection-start-line="93" selection-start-column="124" selection-end-line="93" selection-end-column="174" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/FAC.xml">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="15">
-          <caret line="8214" selection-start-line="8214" selection-end-line="8214" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="10389" lean-forward="true" selection-start-line="10389" selection-end-line="10389" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/FAArchive.htm" />
+    <entry file="file://$PROJECT_DIR$/data/FAC.xml" />
     <entry file="file://$PROJECT_DIR$/parse_nominations.ipynb" />
-    <entry file="file://$PROJECT_DIR$/data/backup/FAC_archives.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/backup/FAC_all_articles.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/wikiproject/lib/python3.7/xml/sax/expatreader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="844">
-          <caret line="240" selection-start-line="240" selection-end-line="240" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/backup/FAC_all_archives.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23680">
-          <caret line="8717" column="25" lean-forward="true" selection-start-line="8717" selection-start-column="25" selection-end-line="8717" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/FA.xml">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-4500" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/docs/conf.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/backup/FA_all_articles.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/docs/docutils.conf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wiki_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/backup/FAC_archives.txt" />
+    <entry file="file://$PROJECT_DIR$/data/backup/FAC_all_articles.txt" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/wikiproject/lib/python3.7/xml/sax/expatreader.py" />
+    <entry file="file://$PROJECT_DIR$/data/backup/FAC_all_archives.xml" />
+    <entry file="file://$PROJECT_DIR$/data/FA.xml" />
+    <entry file="file://$PROJECT_DIR$/core/docs/conf.py" />
+    <entry file="file://$PROJECT_DIR$/data/backup/FA_all_articles.txt" />
+    <entry file="file://$PROJECT_DIR$/core/docs/docutils.conf" />
     <entry file="file://$PROJECT_DIR$/my_unittest.py" />
     <entry file="file://$PROJECT_DIR$/doc.txt" />
     <entry file="file://$PROJECT_DIR$/lst" />
-    <entry file="file://$PROJECT_DIR$/data/backup/FA_all_archives.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="250" column="37" selection-start-line="250" selection-start-column="37" selection-end-line="250" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/backup/FA_archives.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="313" column="15" lean-forward="true" selection-start-line="313" selection-start-column="15" selection-end-line="313" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pywikibot.lwp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/backup/FA_all_archives.xml" />
+    <entry file="file://$PROJECT_DIR$/data/backup/FA_archives.txt" />
+    <entry file="file://$PROJECT_DIR$/pywikibot.lwp" />
     <entry file="file://$PROJECT_DIR$/regex_dict.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -745,10 +570,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/parse_revision_2.py" />
+    <entry file="file://$PROJECT_DIR$/core/README.rst" />
+    <entry file="file://$PROJECT_DIR$/tmp/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/log/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/data/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/res/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_skript.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reduce.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/user-config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-810">
+          <caret line="24" column="18" lean-forward="true" selection-end-line="437" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="437" lean-forward="true" selection-start-line="437" selection-end-line="437" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wikipedia.Featured_article_candidates.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wiki_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="43" column="3" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parse_ends.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1860">
+          <caret line="134" column="46" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="46" />
+          <folding>
+            <element signature="e#32#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="134" column="13" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/FA_archives.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="133" column="64" selection-start-line="133" selection-start-column="64" selection-end-line="133" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/FAC_archives.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/parse_nominations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+        <state relative-caret-position="409">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
           <folding>
             <element signature="e#83#92#0" expanded="true" />
           </folding>
@@ -757,8 +662,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/playground_charm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+        <state relative-caret-position="756">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -767,7 +672,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/revision.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="135">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
@@ -775,67 +680,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parse_revision_2.py">
+    <entry file="file://$PROJECT_DIR$/parse_revision.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="144" column="57" selection-start-line="144" selection-start-column="57" selection-end-line="144" selection-end-column="57" />
+        <state relative-caret-position="375">
+          <caret line="148" column="59" selection-start-line="148" selection-start-column="59" selection-end-line="148" selection-end-column="59" />
           <folding>
             <element signature="e#32#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reduce.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-config.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parse_ends.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="e#32#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/README.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="944">
-          <caret line="133" column="4" selection-start-line="133" selection-start-column="4" selection-end-line="133" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>

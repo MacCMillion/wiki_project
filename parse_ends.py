@@ -11,24 +11,24 @@ import pickle
 from xml.sax.handler import ContentHandler
 import xml.sax
 
-# import data science utils
-import pandas as pd
-import numpy as np
+
 
 
 class MyEndHandler(ContentHandler):
     """
      Default Skript Configuration:
-         ./res/FAC_ends.txt                 (result)
+         ./data/FAC_ends.pkl                 (result)
+         ./tmp/FAC_ends_prob.pkl            (problematic results)
          ./data/FAChistory.xml              (source)
 
      """
 
-    def __init__(self, out_file):
+    def __init__(self, out_file, prob_file):
         """
         :param out_file:
         """
-        self._out = out_file
+        self._out_file = out_file
+        self._prob_file = prob_file
 
         # create logger with 'spam_application'
         self.logger = logging.getLogger('end_logger')
@@ -116,14 +116,6 @@ class MyEndHandler(ContentHandler):
         self._charBuffer = []
 
     def endDocument(self):
-        with open('./res/article_dict_rev.pkl', 'wb') as f:
-            pickle.dump(self._revision_dict, f)
-        print(sum(self.debug_l))
-
-    def endDocument(self):
-        with open('./res/article_dict_rev.pkl', 'wb') as file:
-            pickle.dump(self._revision_dict, file)
-
         res = {}
         for i, (ts, articles) in enumerate(self._revision_dict.items()):
             for article in articles:
@@ -132,13 +124,13 @@ class MyEndHandler(ContentHandler):
                 else:
                     res[article].append(ts)
 
-        with open('./res/article_dict.pkl', 'wb') as file:
+        with open(self._out_file, 'wb') as file:
             pickle.dump(res, file)
-        with open('./res/ends_problematic.pkl', 'wb') as file:
+        with open(self._prob_file, 'wb') as file:
             pickle.dump(self._problematic, file)
 
 
 if __name__ == '__main__':
     logging.basicConfig(filename='./log/log_ends.txt', level=logging.DEBUG)
-    _, out_file, in_file = sys.argv
-    MyEndHandler(out_file).parse(in_file)
+    _, out_file, in_file, prob_file = sys.argv
+    MyEndHandler(out_file, prob_file).parse(in_file)

@@ -5,17 +5,25 @@ import re
 import csv
 
 import urllib.request
+sys.path.append('./core/') # add the folder containing pywikibot to the Python Path so it can be imported
 import pywikibot
 from revision import RevisionPywii as Revision
 
 
-""" Contains several alternative to get revision data from Wikipedia, they are non longer used in the final project since the 'subs.dumps' will be used. 
+
+""" Contains several alternative to get revision data from Wikipedia. 
+The pywikibot solution is used to retriev the complete revision history of the Featured article  
+To make this run you have to setup pywikibot as described here: 
+https://www.mediawiki.org/wiki/Manual:Pywikibot/Installation
+
 The methods explored here are:
 1) directly accessing the wiki api 
 2) use pywiki bot to do the job
 """
 
 def get_revisions_api(page_title):
+    # (copied from stackoverflower can't find the source anymore)
+    """Access the Wikipedia Api directly, via urllib library"""
     url = "https://en.wikipedia.org/w/api.php?action=query&format=xml&prop=revisions&rvlimit=500&titles=" + page_title
     revisions = []  # list of all accumulated revisions
     next = ''  # information for the next request
@@ -29,10 +37,11 @@ def get_revisions_api(page_title):
 
         next = "&rvcontinue=" + cont.group(1)  # gets the revision Id from which to start the next request
 
-    return revisions;
+    return revisions
 
 
 def get_revisions_pywikibot(page_title):
+    """ use pywikibot library, very conviniet but considerably slower than the alternatives."""
     site = pywikibot.Site("en", "wikipedia")
     page = pywikibot.Page(site, page_title)
     revisions = page.revisions(content=True)
