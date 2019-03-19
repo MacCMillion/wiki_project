@@ -1,27 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/parse_revision.py" line="30" mnemonic="7" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ea11d891-c10c-421e-a2f4-1a5843f40d4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wiki_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wiki_project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Docs.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apicache-py3/1849086b482dfe8c3011acb2d0939b123462957331128ba301252b1d51d2010c" beforeDir="false" afterPath="$PROJECT_DIR$/apicache-py3/1849086b482dfe8c3011acb2d0939b123462957331128ba301252b1d51d2010c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apicache-py3/7605d89589c4400a30a0632a2cdcc804d8f0a724bb65f86ad6e338c41150124e" beforeDir="false" afterPath="$PROJECT_DIR$/apicache-py3/7605d89589c4400a30a0632a2cdcc804d8f0a724bb65f86ad6e338c41150124e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apicache-py3/ba95a44775474d871389c9690e6f7550cdf6c03321d2924e28bdad43790b1d27" beforeDir="false" afterPath="$PROJECT_DIR$/apicache-py3/ba95a44775474d871389c9690e6f7550cdf6c03321d2924e28bdad43790b1d27" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apicache-py3/e899af20da62c7b8d36da67aa7ed0ce03e031153eaedef01a512a7aace3f8a33" beforeDir="false" afterPath="$PROJECT_DIR$/apicache-py3/e899af20da62c7b8d36da67aa7ed0ce03e031153eaedef01a512a7aace3f8a33" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apicache-py3/ed64e809dc99004e9fdbb15f13c4831c6bbe7f4cef576ec9423810f7d63ce012" beforeDir="false" afterPath="$PROJECT_DIR$/apicache-py3/ed64e809dc99004e9fdbb15f13c4831c6bbe7f4cef576ec9423810f7d63ce012" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/merge.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/merge.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parse_ends.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse_ends.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parse_revision.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse_revision.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/playground.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/playground.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playground_charm.py" beforeDir="false" afterPath="$PROJECT_DIR$/playground_charm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reduce.py" beforeDir="false" afterPath="$PROJECT_DIR$/reduce.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/revision.py" beforeDir="false" afterPath="$PROJECT_DIR$/revision.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_skript.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/run_skript.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/throttle.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/throttle.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/wiki_api.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playground_charm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
+            <state relative-caret-position="765">
               <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -49,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/parse_revision.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="148" column="59" selection-start-line="148" selection-start-column="59" selection-end-line="148" selection-end-column="59" />
+            <state relative-caret-position="690">
+              <caret line="148" column="89" selection-start-line="148" selection-start-column="89" selection-end-line="148" selection-end-column="89" />
               <folding>
                 <element signature="e#32#41#0" expanded="true" />
               </folding>
@@ -59,10 +48,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda3/envs/wiki_project/lib/python3.7/xml/sax/expatreader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="335" selection-start-line="335" selection-end-line="335" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/revision.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="330">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -81,15 +88,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>limi</find>
-      <find>limit</find>
-      <find>break</find>
-      <find>i</find>
-      <find>brea</find>
-      <find>_limit</find>
-      <find>skip_flag</find>
-      <find>logger</find>
-      <find>2013-11-23</find>
       <find>skip_f</find>
       <find>2009-04-</find>
       <find>ten</find>
@@ -111,6 +109,15 @@
       <find>Wikipedia:Featured_article_candidates/Featured_log</find>
       <find>problem</find>
       <find>log</find>
+      <find>date</find>
+      <find>self.flag_sk</find>
+      <find>rev_coun</find>
+      <find>exit</find>
+      <find>print</find>
+      <find>flag_sk</find>
+      <find>article_n</find>
+      <find>self.start</find>
+      <find>datetime</find>
     </findStrings>
     <replaceStrings>
       <replace>:#</replace>
@@ -118,6 +125,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -143,7 +151,9 @@
         <option value="$PROJECT_DIR$/wiki_api.py" />
         <option value="$PROJECT_DIR$/playground_charm.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/revision.py" />
+        <option value="$PROJECT_DIR$/parse_rev_old.py" />
         <option value="$PROJECT_DIR$/parse_revision.py" />
       </list>
     </option>
@@ -160,7 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,12 +180,19 @@
             <path>
               <item name="wiki_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="wiki_project" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wiki_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wiki_project" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,7 +278,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parse_revision.py" />
-      <option name="PARAMETERS" value="./res/revisions.csv ./data/revision_history.xml.gz" />
+      <option name="PARAMETERS" value="./res/revisions.csv ./data/test/test_meta_small.xml.gz ./data/control_test.csv" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -353,6 +369,14 @@
       <option name="presentableId" value="Default" />
       <updated>1547202454275</updated>
     </task>
+    <task id="LOCAL-00001" summary="finished merge">
+      <created>1552923523482</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552923523483</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -382,9 +406,9 @@
     <frame x="67" y="25" width="1613" height="1025" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.17610063" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49776787" visible="true" weight="0.20943396" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.5016077" side_tool="true" weight="0.24958494" />
+      <window_info id="Favorites" order="2" sideWeight="0.50223213" side_tool="true" weight="0.20943396" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32700893" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.40066963" />
@@ -426,15 +450,13 @@
       <window_info anchor="right" x="0" y="0" width="413" height="855" id="Documentation" order="5" side_tool="true" weight="0.32982844" />
     </layout-to-restore>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finished merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished merge" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <condition expression="self._name == 'siteinfo'" language="Python" />
-          <url>file://$PROJECT_DIR$/parse_revision.py</url>
-          <line>97</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/parse_nominations.py</url>
           <line>121</line>
@@ -451,16 +473,49 @@
           <line>27</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <condition expression="type(self.end) != float" language="Python" />
+          <url>file://$PROJECT_DIR$/parse_revision.py</url>
+          <line>125</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="self._text" />
+        <watch expression="self.end" />
+        <watch expression="self.start" />
+        <watch expression="self.ts" />
+        <watch expression="self.article_name" />
+        <watch expression="self._name" />
+        <watch expression="self.flag_skip_article" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>type(self.end) != float</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.i &gt; 0</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self._name == 'siteinfo'</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>self._pos == 286</expression-string>
         <language-id>Python</language-id>
@@ -496,16 +551,6 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>i == 17</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>self._name == 'siteinfo'</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
     <expressions id="watch">
       <expression>
@@ -526,6 +571,46 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>name == 'revision' and (self.start &lt;= self.ts &lt;= self.end)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.start &lt;= self.ts &lt;= self.end</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>elf.start &lt;= self.ts &lt;= self.end</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.df_nominations.loc[self.df_nominations['title'] == self.article_name, 'nomination'][1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.df_nominations.loc[self.df_nominations['title'] == self.article_name, 'nomination'][0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.df_nominations.loc[self.df_nominations['title'] == self.article_name, 'nomination']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.df_nominations</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.df_nominations.loc</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>revision.revid</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -533,11 +618,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/revisions/Augsburg.xml" />
-    <entry file="file://$PROJECT_DIR$/data/augsburg.xml" />
-    <entry file="file://$USER_HOME$/anaconda3/envs/wikiproject/lib/python3.7/site-packages/pywikibot/site.py" />
-    <entry file="file://$USER_HOME$/anaconda3/envs/wikiproject/lib/python3.7/site-packages/pywikibot/page.py" />
-    <entry file="file://$PROJECT_DIR$/res/throttle.ctrl" />
     <entry file="file://$PROJECT_DIR$/res/not_found.csv" />
     <entry file="file://$PROJECT_DIR$/data/revisions/page_info.csv" />
     <entry file="file://$USER_HOME$/anaconda3/envs/wikiproject/lib/python3.7/xml/sax/xmlreader.py" />
@@ -619,16 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parse_ends.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="134" column="46" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="46" />
-          <folding>
-            <element signature="e#32#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="794">
@@ -660,9 +730,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/wiki_project/lib/python3.7/xml/sax/xmlreader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="991">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revision.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/playground_charm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
+        <state relative-caret-position="765">
           <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -670,20 +764,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/revision.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_resolver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="342">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parse_rev_old.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="188" selection-start-line="188" selection-end-line="188" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#32#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parse_ends.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="111" column="43" lean-forward="true" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
+          <folding>
+            <element signature="e#32#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/wiki_project/lib/python3.7/xml/sax/expatreader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="335" selection-start-line="335" selection-end-line="335" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parse_revision.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="148" column="59" selection-start-line="148" selection-start-column="59" selection-end-line="148" selection-end-column="59" />
+        <state relative-caret-position="690">
+          <caret line="148" column="89" selection-start-line="148" selection-start-column="89" selection-end-line="148" selection-end-column="89" />
           <folding>
             <element signature="e#32#41#0" expanded="true" />
           </folding>

@@ -17,6 +17,14 @@ class RevisionXML():
     registered: bool = False
 
 @dataclass
+class RevivsionXMLlight():
+    page_title: str
+    page_id: int
+    ts : datetime
+    revision_id: int
+    author_id: int =-1
+
+@dataclass
 class RevisionPywii():
     page_title: str
     page_id: int
