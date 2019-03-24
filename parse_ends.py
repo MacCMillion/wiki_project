@@ -1,8 +1,7 @@
 # import standard python moduls
-from pprint import pprint
+
 import re
 import sys
-import os
 from datetime import datetime
 import logging
 import pickle

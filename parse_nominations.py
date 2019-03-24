@@ -136,9 +136,8 @@ class MyNominationHandler(ContentHandler):
 
 
         df = df.transpose()
-        df.columns = ['idx', 'title', 'nomination', 'last_comment']
+        df.columns = ['idx', 'title', 'date_nomination', 'date_last_comment']
         df.set_index('idx')
-        #df[['nomination', 'last_comment']] = df[['nomination', 'last_comment']].applymap(lambda x: pd.Timestamp(x))
         df.to_csv(self._out_file, sep=';', decimal='.')
         with open(self._prob_file, 'wb') as f:
             pickle.dump(self._no_title, f)
