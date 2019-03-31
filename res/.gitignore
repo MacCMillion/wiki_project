@@ -2,3 +2,7 @@
 *
 # Except this file
 !.gitignore
+! f_FA_merged.csv
+! f_FAC_merged.csv
+! f_FA_revisions.csv
+! f_FAC_revisions.csv

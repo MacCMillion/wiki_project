@@ -131,6 +131,7 @@ parse_revision_2.py
 playground_charm.py
 playground.ipynb
 reduce
+merge
 core
 tmp
 log
