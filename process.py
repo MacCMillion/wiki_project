@@ -6,6 +6,27 @@ from collections import defaultdict
 from itertools import chain
 import re
 # './data/FAC_nomination.csv'
+
+def get_archives(filename, pattern):
+    """ Retrives the links to the monthly FA-Archives"""
+
+    # Extract links from Html document
+    with open(filename) as file:
+        links_to_archive = []
+        for line in file:
+            matcher = re.search(pattern, line)
+            if matcher:
+                links_to_archive.append(matcher.group(1))
+
+    # Remove links to archives from before 2005 and after 2016
+    year_list = ['2003', '2004', '2017', '2018', '2019']
+    res = []
+    for link in links_to_archive:
+        if not any([year in link for year in year_list]):
+            res.append(link)
+    return res
+
+
 def merge(file_nominations, file_ends):
     # Load results of parsing monthly archives
     df_FAC = pd.read_csv(file_nominations, sep=';', index_col=0, parse_dates=['date_nomination', 'date_last_comment'])
