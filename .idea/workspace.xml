@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea11d891-c10c-421e-a2f4-1a5843f40d4c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regex_dict.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/regex_dict.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/.gitignore" beforeDir="false" />
     </list>
     <ignored path="parse_rev_old.py" />
     <ignored path="merge.ipynb" />
@@ -103,15 +103,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1710">
               <caret line="114" column="5" lean-forward="true" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -236,7 +227,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tmp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/merge.ipynb" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/parse_revision.py" />
   </component>
@@ -444,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554048732227</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="cleaned up">
+      <created>1554050548431</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554050548431</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
